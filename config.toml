@@ -54,7 +54,7 @@ url = "/posts/"
 weight = 3
 
 [languages.bn]
-languageName = "Bangla"
+languageName = "বাংলা"
 
 [[languages.bn.menu.main]]
 identifier = "about"
