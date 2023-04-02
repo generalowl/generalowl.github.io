@@ -1,0 +1,85 @@
+baseURL = "https://generalowl.github.io"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "General Owl"
+theme = "anubis"
+paginate = 10
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+name = "anonymous"
+
+[params]
+author = "anonymous"
+description = "No description yet"
+dateFormat = "2006-01-02"
+paginationSinglePost = false
+style = "auto"
+readMore = false
+readNextPosts = 2
+copyCodeButton = true
+rssAsSocialIcon = true
+locale = "en-us"
+
+# Graphcomment support
+graphcommentId = ""
+
+# utteranc.es support
+utterancesRepo = ""  # mandatory
+utterancesTheme = "" # optional
+utterancesIssue = "" # optional
+utterancesLabel = "" # optional
+  
+[languages.en]
+languageName = "English"
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+name = "Archive"
+identifier = "archive"
+url = "/posts/"
+weight = 3
+
+[languages.bn]
+languageName = "Bangla"
+
+[[languages.bn.menu.main]]
+identifier = "about"
+name = "আমাদের সম্পর্কে"
+url = "/about/"
+weight = 1
+
+[[languages.bn.menu.main]]
+identifier = "tags"
+name = "ট্যাগস"
+url = "/tags/"
+weight = 2
+
+[[languages.bn.menu.main]]
+identifier = "archive"
+name = "আর্কাইভ"
+url = "/posts/"
+weight = 3
+
+[[languages.bn.params]]
+locale = "bn-bd"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe = true
